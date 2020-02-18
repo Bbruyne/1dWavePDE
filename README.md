@@ -4,7 +4,7 @@ This repository contains a code to solve the one dimensional *wave equation* in 
 It solves the wave equation (with `v=1m/s`) on the unit interval [0,1] with absorbing boundary conditions (`psi(0,t) = psi(1,t) = 0`).
 The state vector contains `psi` (the wave function) and `psidot` (the time derivative of the wave function) as the equation is of second order in time derivative.
 
-Below are several examples of the use of the code. We plot the solution at several times t=0, 1/10 T, 2/10 T, ..., where T is the period of the solution.
+Below are several examples of the use of the code. We plot the solution at several times t=0, 1/10 T, 2/10 T, ..., T, where T is the period of the solution.
 
 * initial conditions : `psi(x,0) = sin(pi*x)` and `psidot(x,0) = 0` with `delta_t=10^-2` and `nHats=100` (not respecting CFL convergence conditions)
 
